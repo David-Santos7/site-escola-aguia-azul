@@ -1,84 +1,160 @@
-# 🦅 Colégio Águia Azul
+🦅 Colégio Águia Azul
+📖 Sobre o Projeto
 
-## 📖 Sobre o Projeto
-O Colégio Águia Azul é um **website institucional** desenvolvido com o objetivo de apresentar a **filosofia pedagógica da escola**, sua **infraestrutura** e as **atividades diárias**. O site foi projetado para ser **responsivo e informativo**, destacando a **missão educacional da instituição**, que se baseia em **valores cristãos** e na **metodologia de ensino Mackenzie Educação**.
+O site institucional do Colégio Águia Azul foi desenvolvido com o objetivo de apresentar de forma clara e acessível a identidade educacional da escola, sua história, metodologia, estrutura física, além de divulgar projetos pedagógicos, eventos e atividades do cotidiano escolar.
 
-O projeto reflete o lema da escola:  
-> "Educar é preparar para o hoje e inspirar o amanhã"  
+O colégio se fundamenta em valores cristãos e utiliza a metodologia da Mackenzie Educação, priorizando uma formação integral que abrange aspectos cognitivos, emocionais, sociais e espirituais.
 
-Ele foi construído com foco na **clareza** e na **acessibilidade** para pais e alunos.
+O lema da instituição é:
 
----
+“Educar é preparar para o hoje e inspirar o amanhã.”
 
-## ⚙️ Funcionalidades
-O site é dividido em **três páginas principais**:
+O projeto foi construído priorizando responsividade, visual moderno, navegação intuitiva e acessibilidade, garantindo que pais, alunos e visitantes possam encontrar informações de maneira fácil e rápida.
 
-- **Página Inicial (`index.html`)**  
-  📷 Apresenta uma **galeria de fotos interativa**, uma **seção de vídeos** com projetos da escola, e detalhes sobre a **metodologia** e **filosofia educacional**.
+⚙️ Funcionalidades
 
-- **Página Sobre a Escola (`sobre.html`)**  
-  📚 Oferece uma **visão aprofundada** da **história** e dos **valores** do colégio, detalhando a **missão pedagógica** e a **parceria com o sistema de ensino Mackenzie**.
+O site é formado por páginas e seções integradas, cada uma com propósito informativo e visual:
 
-- **Página de Contato (`contato.html`)**  
-  ✉️ Contém um **formulário** para que os visitantes possam **enviar mensagens diretamente para a administração da escola**, com **validação** e **envio via PHP**.
+Página Inicial (index.html)
+📷 Apresenta a galeria de fotos, vídeos institucionais, descrição da proposta pedagógica, além de um módulo de pesquisa interna que permite localizar conteúdos por palavra-chave.
 
----
+Página Sobre a Escola (sobre.html)
+📚 Fornece uma descrição detalhada da história, princípios, metodologia Mackenzie, projetos educacionais e valores formativos.
 
-## 🛠️ Tecnologias Utilizadas
-O projeto foi construído usando uma combinação de linguagens e bibliotecas para garantir **design moderno e funcional**:
+Página de Contato (contato.html)
+✉️ Inclui um formulário funcional, com validação no frontend e processamento via PHP para envio de mensagens diretamente à administração.
 
-- **HTML5**: Estrutura e marcação semântica das páginas.  
-- **CSS3**: Estilização personalizada, com suporte a **temas claro e escuro** (`color-scheme`).  
-- **Bootstrap 5.3**: Framework para **layout responsivo**, incluindo **barra de navegação**, **botões** e **modais**.  
-- **JavaScript**: Adiciona **interatividade**, incluindo o **carrossel de imagens com transição de brilho** e a funcionalidade de **envio do formulário de contato**.  
-- **PHP**: Script de **backend** para processar os dados do formulário de contato e enviar **e-mails de forma segura**.
+Carrosséis, cards de vídeo e galerias fixas
+As mídias são apresentadas com animações sutis, estrutura responsiva e carregamento otimizado.
 
----
+Busca interna inteligente (JavaScript)
+🔍 A barra de pesquisa permite encontrar rapidamente títulos, textos, cards e imagens, filtrando dinamicamente o conteúdo exibido na página.
 
-## 🗂️ Estrutura do Código
-A organização do projeto segue uma estrutura de pastas **clara e intuitiva**:
+🛠️ Tecnologias Utilizadas
+
+Para garantir um resultado moderno, rápido e responsivo, o projeto utiliza:
+
+HTML5: Estrutura semântica das páginas e organização dos conteúdos.
+
+CSS3: Estilização personalizada, baseada em design limpo e responsivo.
+
+Bootstrap 5.3:
+
+sistema de grid
+
+navbar
+
+cards
+
+spacing utilities
+
+responsividade nativa
+
+JavaScript Puro (ES6+):
+
+lógica da barra de pesquisa
+
+carrosséis personalizados
+
+manipulação de DOM
+
+interações dinâmicas
+
+PHP:
+
+processamento backend do formulário de contato
+
+envio seguro de mensagens via e-mail
+
+Fontes personalizadas carregadas via @font-face.
+
+Vídeos e imagens otimizados dentro da estrutura de assets.
+
+🗂️ Estrutura do Projeto
+
+A organização dos arquivos foi construída para manter clareza, manutenção fácil e padronização:
 
 colégio-águia-azul/
 ├── assets/
-│ ├── css/
-│ │ ├── sobre.css
-│ │ ├── slide.css
-│ │ └── style.css
-│ ├── image/
-│ │ ├── aguia-azul.png
-│ │ ├── ClipEscola_logo.png
-│ │ ├── mackenzie-logo.png
-│ │ └── ... (outras imagens)
-│ ├── js/
-│ │ ├── formulario.js
-│ │ └── main.js
-│ └── videos/
-│ ├── gincana.mp4
-│ └── ... (outros vídeos)
+│   ├── css/
+│   │   ├── sobre.css
+│   │   ├── slide.css
+│   │   └── style.css
+│   ├── font/
+│   │   ├── Happy School.ttf
+│   │   ├── JandaManateeSolid.ttf
+│   │   └── Heroes Legend.ttf
+│   ├── image/
+│   │   ├── aguia-azul.png
+│   │   ├── ClipEscola_logo.png
+│   │   ├── mackenzie-logo.png
+│   │   └── ... outras imagens
+│   ├── js/
+│   │   ├── formulario.js
+│   │   ├── main.js
+│   │   └── busca.js (caso separado)
+│   └── videos/
+│       ├── gincana.mp4
+│       ├── projetos.mp4
+│       └── ... outros vídeos
 ├── backend/
-│ └── processa.php
+│   └── processa.php
 ├── contato.html
 ├── index.html
 ├── sobre.html
 └── README.md
 
-markdown
-Copiar código
+📌 Detalhes
 
-- **assets/**: Contém todos os **arquivos estáticos**, como folhas de estilo, imagens, scripts e vídeos.  
-- **backend/**: Armazena o **script PHP** que lida com o envio do formulário.  
-- **contato.html, index.html, sobre.html**: As **páginas principais** do site.  
-- **README.md**: Este arquivo, que **documenta o projeto**.
+assets/: Arquivos estáticos (CSS, JS, imagens, vídeos e fontes).
 
----
+backend/: Scripts de processamento PHP.
 
-## 🚀 Como Executar o Projeto
-Para visualizar o site localmente, siga os passos abaixo:
+HTMLs: Estrutura principal do site.
+
+README.md: Documento oficial do projeto (este arquivo).
+
+🚀 Como Executar o Projeto
+
+Para visualizar o projeto localmente:
+
+Baixe ou clone o repositório:
+
+git clone https://github.com/seu-usuario/seu-repositorio.git
+
+
+Abra a pasta do projeto:
+
+cd colegio-aguia-azul
+
+
+Clique duas vezes em index.html
+ou abra com uma extensão de servidor local (como Live Server).
+
+✔ Para funcionamento do formulário:
+
+Para que o formulário envie mensagens corretamente, é necessário:
+
+Servidor com suporte a PHP 7+
+
+Configuração de SMTP / mail() habilitada
+
+Sem isso, o formulário somente exibirá mensagens locais sem envio real.
 
 🤝 Contribuição
-Contribuições para melhorar o projeto são sempre bem-vindas.
-Sinta-se à vontade para abrir uma issue ou enviar um pull request.
+
+Contribuições são sempre bem-vindas!
+Se desejar melhorar o projeto:
+
+Abra uma issue
+
+Envie um pull request
+
+Sugira funcionalidades ou correções
+
+O objetivo é manter o site sempre atualizado e funcional.
 
 📄 Licença
-Este projeto está licenciado sob a licença MIT.
-Veja o arquivo LICENSE para mais detalhes.
+
+Este projeto está sob a licença MIT.
+A licença completa pode ser encontrada no arquivo LICENSE.

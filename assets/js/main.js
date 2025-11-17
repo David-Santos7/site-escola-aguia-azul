@@ -4,12 +4,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Lista de imagens do slide
     const IMAGENS = [
-        { src: './assets/image/template/mackenzie.png', nome: 'Ensino Mackenzie' },
-        { src: './assets/image/animalia park.jpg', nome: 'Matrículas' },
-        { src: './assets/image/branca-de-neve.png', nome: 'Festa Caipira' },
-        { src: './assets/image/crianças-unidas.png', nome: 'Estudando Matemática' },
-        { src: './assets/image/Foto 3.jpg', nome: 'Atividade diferenciada' },
-        { src: './assets/image/chácara-do-tiao.png', nome: 'Atividade diferenciada' },
+        { src: './assets/image/template/primeira.png', nome: 'Ensino Mackenzie' },
+        { src: './assets/image/template/matricula-banner.png', nome: 'Banner Matrícula' },
+        { src: './assets/image/template/animalia-park.png', nome: 'Animalia Park'},
+        { src: './assets/image/template/chácara-do-tiao.png', nome: 'cHácara do Tião' },
+        { src: './assets/image/template/Festa-caipira.png', nome: 'Festa Caipira'},
+        { src: './assets/image/template/Experiencia.png' , nome: 'Experiência' },
+        { src: './assets/image/template/Judo-campeonato.png', nome: 'Campeonato de Judô'},
+        { src: './assets/image/template/Faça-parte-você-também.png', nome: 'Faça parte' },
     ];
 
     let indice = 0; // índice da imagem atual

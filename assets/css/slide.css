@@ -2,17 +2,17 @@
 
 @font-face {
     font-family: happy-school;
-    src: url(../assets/font/Happy\ School.ttf);
+    src: url(/assets/font/Happy/School.ttf);
 }
 
 @font-face {
     font-family:janda-bubble;
-    src: url(../assets/font/JandaManateeBubble.ttf);
+    src: url(/assets/font/JandaManateeBubble.ttf);
 }
 /* Container da galeria de verificação */
 #galeria-verificacao {
     margin: 70px 0; /* espaçamento acima e abaixo da galeria */
-    background-image:url(../assets/image/fundo-sky.png);
+    background-image:url(/assets/image/fundo-sky.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -28,7 +28,7 @@
 
 /* Área de miniaturas (thumbnails) */
 #thumbs {
-    display: flex;           /* exibe em linha */
+    display: flex; 
     flex-wrap: wrap;         /* permite quebrar linha */
     gap: 10px;               /* espaçamento entre miniaturas */
     justify-content: center; /* centraliza na horizontal */
@@ -36,8 +36,8 @@
 
 /* Estilo das miniaturas */
 .thumb {
-    width: 120px;
-    height: 80px;
+    width: 160px;
+    height: 100px;
     border: 2px solid transparent; /* borda invisível por padrão */
     border-radius: 8px;            /* cantos arredondados */
     overflow: hidden;              /* esconde partes da imagem que saem da borda */
