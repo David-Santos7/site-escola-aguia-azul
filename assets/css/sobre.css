@@ -2,25 +2,25 @@
 
 @font-face {
     font-family: happy-school;
-    src: url("/assets/fonts/Happy-School.ttf");
+    src: url('../fonts/Happy-School.ttf');
 }
 
 @font-face {
     font-family:janda-solid;
-    src: url("/assets/fonts/JandaManateeSolid.ttf");
+    src: url('../fonts/JandaManateeSolid.ttf');
 }
 @font-face {
     font-family:heroes-legend;
-    src: url("/assets/fonts/Heroes-Legend.ttf");
+    src: url('../fonts/Heroes-Legend.ttf');
 }
 @font-face {
     font-family:comic-relief;
-    src: url("/assets/fonts/Comic-Relief-Bold.ttf");
+    src: url('../fonts/Comic-Relief-Bold.ttf');
 }
 
 @font-face {
     font-family:cherry-bomb;
-    src: url("/assets/fonts/Cherry-BombOne-Regular.ttf");
+    src: url('../fonts/Cherry-BombOne-Regular.ttf');
 }
 
 /* Reset básico para remover margens e espaçamentos padrão */
@@ -278,7 +278,7 @@ a, li {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 700;
     font-style: normal;
-    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(17, 65, 85, 0.8), rgba(0, 0, 0, .8)), url(../image/frente-nova.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(17, 65, 85, 0.8), rgba(0, 0, 0, .8)), url('../image/frente-nova.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;

@@ -2,17 +2,17 @@
 
 @font-face {
     font-family: happy-school;
-    src: url(/assets/font/Happy/School.ttf);
+    src: url('../font/Happy/School.ttf');
 }
 
 @font-face {
     font-family:janda-bubble;
-    src: url(/assets/font/JandaManateeBubble.ttf);
+    src: url('../font/JandaManateeBubble.ttf');
 }
 /* Container da galeria de verificação */
 #galeria-verificacao {
     margin: 70px 0; /* espaçamento acima e abaixo da galeria */
-    background-image:url(/assets/image/fundo-sky.png);
+    background-image:url('../image/fundo-sky.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -22,7 +22,8 @@
 
 /* Imagem principal com gradiente escuro sobreposto */
 #mainImage {
-    background-image: linear-gradient(rgba(0, 0, 0, .9), rgba(17, 65, 85, .8), rgba(0, 0, 0, .8)), url(../image/template/Fundo.png);
+
+    background-image: linear-gradient(rgba(0, 0, 0, .9), rgba(17, 65, 85, .8), rgba(0, 0, 0, .8)), url('../image/fundo-sky.png');
     transition: all 0.3s ease; /* transição suave ao alterar propriedades */
 }
 
@@ -36,8 +37,8 @@
 
 /* Estilo das miniaturas */
 .thumb {
-    width: 160px;
-    height: 100px;
+    width: 140px;
+    height: 80px;
     border: 2px solid transparent; /* borda invisível por padrão */
     border-radius: 8px;            /* cantos arredondados */
     overflow: hidden;              /* esconde partes da imagem que saem da borda */
