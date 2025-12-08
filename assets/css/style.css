@@ -162,7 +162,11 @@ section {
 
 .separation-aguia {
     width: 100%;
+<<<<<<< HEAD
     height: 160px;
+=======
+    height: 120px;
+>>>>>>> c166f3a56a5c8c4c2dc62207ca11cab1633e96fc
     border-radius: 4px;
     color: #120a53;
     font-family:cherry-bomb;
@@ -392,4 +396,5 @@ footer {
     box-shadow: 0px 3px #f8f9fa;
     border-radius: 5px;
 }
+
 
