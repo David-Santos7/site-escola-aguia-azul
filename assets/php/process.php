@@ -4,7 +4,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST['email'];
     $mensagem = $_POST['mensagem'];
 
-    $to = "profdavidy@gmail.com"; // <-- coloque o e-mail de destino aqui
+    $to = "aguiazull@outlook.com"; // <-- e-mail de destino aqui
     $subject = "Nova mensagem do site - Colégio Águia Azul";
     $body = "Nome: $nome\nEmail: $email\nMensagem:\n$mensagem";
     $headers = "From: $email";

@@ -90,6 +90,7 @@ body {
 /* Centraliza textos dentro do main */
 main {
     text-align: center;
+    padding-bottom: 1px;
 }
 
 /* Estilo para títulos principais */
@@ -119,7 +120,7 @@ section {
     color:rgb(24,5,77);
     font-size: larger;
     text-align: justify;
-    margin: 3rem;
+    margin: 1rem;
 }
 
 .separation-aguia {
@@ -131,7 +132,7 @@ section {
     font-size: x-large;
     background: rgb(218, 5, 5);
     margin-top: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 /* Barra de separação visual */
 .separation {
@@ -141,7 +142,7 @@ section {
     font-family: cherry-bomb;
     background: rgb(218, 5, 5);
     margin-top: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 /* Remove decoração de links e bullets das listas */
@@ -263,18 +264,19 @@ a, li {
     text-align: center;
     color: aliceblue;
     margin-bottom: 35px;
-    margin-top: 45px;
+    margin-top: 10px;
 }
 
 /* Título principal da seção */
 .title-aguia{
   text-align: center;
   color: aliceblue;
-  margin-bottom: 20px; /* Espaçamento abaixo do título */
+  margin-bottom: 5px; /* Espaçamento abaixo do título */
 }
 
 /* Estilo do bloco lateral (aside) com imagem de fundo e gradiente */
 .method {
+    
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -282,7 +284,6 @@ a, li {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: auto;
     padding-top: 10px;
     padding-bottom: 50px;
     color: aliceblue;
@@ -290,18 +291,20 @@ a, li {
     grid-column: inherit;
 }
 .slide {
-width: 90%;
-max-width: 800px;
+width: 100%;
+max-width: 900px;
 display: block; 
 margin: 0 auto; 
 
 }
 
 #aguia-photo {
-    width: 100%;
+   width: 103%;
+    max-width: 800px;
     height: auto;
-    object-fit: contain; /* garante que não corte */
+    margin: 2px 2px 5px 2px;
     display: block;
+    object-fit: contain;
 }
 
 /* Estilo do rodapé */
